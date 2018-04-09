@@ -7,8 +7,13 @@
 }
 
 .fab {
-    /*font-size: 50px; desktop size*/ 
-    font-size: 30px; /*mobile size*/
+    /*font-size: 50px; desktop size*/
+    font-size: 30px;
+    /*mobile size*/
     margin: 0px 20px;
     color: rgb(134, 133, 133);
+}
+
+.reachout {
+    text-align: center;
 }
