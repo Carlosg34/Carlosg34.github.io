@@ -7,7 +7,8 @@
 }
 
 .fab {
-    font-size: 50px;
+    /*font-size: 50px; desktop size*/ 
+    font-size: 30px; /*mobile size*/
     margin: 0px 20px;
     color: rgb(134, 133, 133);
 }
