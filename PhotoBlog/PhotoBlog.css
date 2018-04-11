@@ -1,0 +1,61 @@
+body {
+    background-image: url("background-textures-patterns.jpg");
+}
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 65px;
+    margin: 20px;
+    color: #737777e8;
+    display: inline;
+}
+
+#mainHeading {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#camIcon1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #5fe8ef2b;
+    filter: none;
+    margin: 30px;
+    border-radius: 30px;
+}
+
+#camIcon2 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #5fe8ef2b;
+    filter: none;
+    transform: scaleX(-1);
+    margin: 30px;
+    border-radius: 30px;
+}
+
+ul {
+    display: inline;
+}
+
+.navLinks {
+    display: inline;
+}
+
+.pics {
+    width: 30%;
+    height: 350px;
+    margin: 1.5%;
+    filter: grayscale(100%);
+    border-radius: 2px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.8s;
+}
+
+.pics:hover {
+    transform: scale(.9);
+}
