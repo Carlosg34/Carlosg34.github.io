@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Word Counter Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="wordcounter.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>This is a simple Word Counter</h1>
+        <textarea id="userText" cols="75" rows="10" placeholder="Enter Text Here"></textarea>
+        <br>
+        <button type="button" class="btn btn-secondary" onclick="getResults()">ANALIZE</button>
+        <br>
+        <p id="words"></p>
+        <br>
+        <p id="sentences"></p>
+        <br>
+        <p id="average"></p>
+        <br>
+        <p id="spaces"></p>
+    </div>
+
+
+    <script src="wordcounter.js"></script>
+</body>
+
+</html>
