@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background: #c0d3e6;
+}
+
+#mainTitle {
+    margin: 7px;
+    color: rgb(248, 24, 24);
+    font-family: 'Kavivanar', cursive;
+    font-size: 5em;
+    font-weight: 700;
+}
+
+#divTitle {
+    margin: 7px;
+    color: rgb(248, 24, 24);
+}
+
+.container {
+    height: auto;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border: 1px solid #08038C;
+    box-shadow: 0 0 8px 3px rgb(12, 12, 12);
+}
+
+.title {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #dc3545;
+}
+
+.question {
+    padding: 5px;
+    font-size: 25px;
+    background: rgb(7, 7, 7);
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    color: #f6f6f6;
+}
+
+.option {
+    width: 370px;
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10px 0 10px 10px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.option:hover {
+    background: #6c757d;
+    color: #f6f6f6;
+}
+
+.next-btn {
+    border: none;
+    outline: none !important;
+    background: #f89da6;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+
+.next-btn:hover {
+    background: #6c757d;
+    color: #f6f6f6;
+}
+
+.result {
+    height: auto;
+    text-align: center;
+    font-size: 75px;
+}
+
+.option input:checked .option {
+    background: #08038C;
+    color: #000;
+}
+
+ul {
+    width: 300px;
+}
+
+li {
+    font-size: 20px;
+    width: 120px;
+}
+
+a :visited {
+    color: blue;
+    text-decoration: none !important;
+}
+
+a :hover {
+    background-color: #909fa8
+}
