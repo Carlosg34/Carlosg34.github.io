@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.fab .fas {
+.fab.fas {
     /*font-size: 50px; desktop size*/
     font-size: 30px;
     /*mobile size*/
