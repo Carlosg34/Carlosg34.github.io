@@ -6,7 +6,8 @@
     text-align: center;
 }
 
-.fab, .fas {
+.fab,
+.fas {
     /*font-size: 50px; desktop size*/
     font-size: 30px;
     /*mobile size*/
@@ -20,5 +21,9 @@
 }
 
 .icons-social {
-    margin-top: 30px;
+    margin: 30px 0px;
+    background-color: #b8d5f1;
+}
+
+
 }
