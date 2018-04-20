@@ -1,3 +1,7 @@
+h4 {
+    margin-bottom: 30px;
+}
+
 .col-sm-6 {
     margin-bottom: 20px;
 }
@@ -16,7 +20,7 @@
 }
 
 .footer {
-    background-color: #cbddec;
+    background-color: #8d8d8d;
 }
 
 .icons-social {
