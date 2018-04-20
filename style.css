@@ -9,10 +9,10 @@
 .fab,
 .fas {
     /*font-size: 50px; desktop size*/
-    font-size: 40px;
+    font-size: 50px;
     /*mobile size*/
     margin: 0px 20px;
-    color: rgb(134, 133, 133);
+    color: #fefefe;
 }
 
 .footer {
@@ -22,5 +22,5 @@
 .icons-social {
     text-align: center;
     margin: 30px 0px;
-    background-color: #cbddec;
+    background-color: #8d8d8d;
 }
