@@ -11,6 +11,15 @@ h4 {
     border: none;
 }
 
+.avatar {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 3px 2px 15px black;
+    float: right;
+}
+
 .fab,
 .fas {
     /*font-size: 50px; desktop size*/
