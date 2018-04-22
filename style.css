@@ -17,6 +17,7 @@ h4 {
     /*mobile size*/
     margin: 0px 20px;
     color: #fefefe;
+    text-shadow: 3px 2px 15px black;
 }
 
 .footer {
