@@ -4,6 +4,11 @@ body {
     background-repeat: no-repeat;
 }
 
+.container {
+    width: 90%;
+    height: auto;
+}
+
 h1 {
     font-size: 4em;
     text-align: center;
