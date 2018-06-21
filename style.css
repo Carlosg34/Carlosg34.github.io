@@ -2,23 +2,59 @@
     margin-bottom: 20px;
 }
 
-.icons-social {
-    text-align: center;
+.card {
+    box-shadow: 2px 2px 10px grey;
+    border: none;
+    transition: all 0.8s;
 }
 
-.fab {
+.card:hover {
+    transform: scale(1.1);
+}
+
+.avatar {
+    background-image: url(media/avatar.jpg);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    border: 0.5px solid #fbfbfb;
+    border-radius: 50%;
+    box-shadow: 3px 2px 5px #a9a9a9;
+    float: right;
+}
+
+.fab,
+.fas {
     /*font-size: 50px; desktop size*/
-    font-size: 30px;
+    font-size: 50px;
     /*mobile size*/
     margin: 0px 20px;
-    color: rgb(134, 133, 133);
+    color: #fefefe;
+    text-shadow: 3px 2px 15px black;
 }
 
-.reachOut {
-    text-align: center;
-    background-color: #e9ecef;
+.footer {
+    background-color: #8d8d8d;
 }
 
 .icons-social {
-    margin-top: 30px;
+    text-align: center;
+    margin: 30px 0px;
+    background-color: #8d8d8d;
+}
+
+.copyright {
+    text-align: center;
+    color: #afafaf;
+    margin-top: 20px;
+}
+
+.lead {
+    text-align: justify;
+}
+
+.about {
+    padding-top: 10px;
+    margin: 30px;
+    border-radius: 7% / 50%;
 }
