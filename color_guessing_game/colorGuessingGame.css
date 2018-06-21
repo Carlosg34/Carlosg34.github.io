@@ -66,6 +66,10 @@ button {
     outline: none;
 }
 
+.instructions{
+
+}
+
 button:hover {
     color: white;
     background-color: steelblue;
