@@ -1,60 +1,64 @@
 .col-sm-6 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .card {
-    box-shadow: 2px 2px 10px grey;
-    border: none;
-    transition: all 0.8s;
+  box-shadow: 2px 2px 10px grey;
+  border: none;
+  /* transition: all 0.8s; */
 }
 
-.card:hover {
+/* .card:hover {
     transform: scale(1.1);
+} */
+
+.card-title {
+  margin: 1.5rem 0;
 }
 
 .avatar {
-    background-image: url(media/avatar.jpg);
-    background-size: cover;
-    width: 130px;
-    height: 130px;
-    border: 0.5px solid #fbfbfb;
-    border-radius: 50%;
-    box-shadow: 3px 2px 5px #a9a9a9;
-    float: right;
+  background-image: url(media/avatar.jpg);
+  background-size: cover;
+  width: 130px;
+  height: 130px;
+  border: 0.5px solid #fbfbfb;
+  border-radius: 50%;
+  box-shadow: 3px 2px 5px #a9a9a9;
+  float: right;
 }
 
 .fab,
 .fas {
-    /*font-size: 50px; desktop size*/
-    font-size: 50px;
-    /*mobile size*/
-    margin: 0px 20px;
-    color: #fefefe;
-    text-shadow: 3px 2px 15px black;
+  /*font-size: 50px; desktop size*/
+  font-size: 50px;
+  /*mobile size*/
+  margin: 0px 20px;
+  color: #fefefe;
+  text-shadow: 3px 2px 15px black;
 }
 
 .footer {
-    background-color: #8d8d8d;
+  background-color: #8d8d8d;
 }
 
 .icons-social {
-    text-align: center;
-    margin: 30px 0px;
-    background-color: #8d8d8d;
+  text-align: center;
+  margin: 30px 0px;
+  background-color: #8d8d8d;
 }
 
 .copyright {
-    text-align: center;
-    color: #afafaf;
-    margin-top: 20px;
+  text-align: center;
+  color: #afafaf;
+  margin-top: 20px;
 }
 
 .lead {
-    text-align: justify;
+  text-align: justify;
 }
 
 .about {
-    padding-top: 10px;
-    margin: 30px;
-    border-radius: 7% / 50%;
+  padding-top: 10px;
+  margin: 30px;
+  border-radius: 7% / 50%;
 }
