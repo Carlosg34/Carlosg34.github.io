@@ -1,103 +1,111 @@
-    body {
-        background-color: rgb(168, 218, 254);
-        font-size: 100%;
-        margin: 0px;
-    }
-    
-    .row {
-        margin-top: 10px;
-    }
-    
-    .vid {
-        margin-top: 30px;
-    }
-    
-    .h1 {
-        display: inline-flex;
-        font-family: 'Neucha', cursive;
-        font-size: 4em;
-        font-weight: bold;
-        border-bottom: 3px solid rgb(236, 140, 228);
-        border-right: 3px solid rgb(236, 140, 228);
-        width: 450px;
-        text-align: center;
-    }
-    
-    hr {
-        background-color: red;
-    }
-    
-    img {
-        transition: all 1s;
-    }
-    
-    img:hover {
-        transform: scale(1.1)
-    }
-    
-    .footer {
-        height: 100px;
-        background-color: rgb(130, 145, 182);
-        text-align: center;
-        margin-top: 20px;
-    }
-    
-    .p {
-        margin-top: 20px;
-    }
-    
-    p {
-        margin-bottom: 0px;
-    }
-    
-    @media only screen and (max-width: 1100px) {
-        .h1 {
-            font-size: 4em;
-            width: 450px;
-        }
-        img {
-            margin-top: 10px;
-        }
-    }
-    
-    @media only screen and (max-width: 769px) {
-        .h1 {
-            font-size: 4em;
-            width: 450px;
-        }
-        img {
-            margin-top: 10px;
-        }
-    }
-    
-    @media only screen and (max-width: 600px) {
-        .h1 {
-            font-size: 3em;
-            width: 330px;
-        }
-        img {
-            margin-top: 10px;
-        }
-    }
-    
-    @media only screen and (max-width: 376px) {
-        .h1 {
-            font-size: 2.5em;
-            width: 270px;
-        }
-        img {
-            margin-top: 10px;
-        }
-    }
-    
-    @media only screen and (max-width: 250px) {
-        .h1 {
-            font-size: 1.5em;
-            width: 170px;
-            border-bottom: 1px solid rgb(236, 140, 228);
-            border-right: 1px solid rgb(236, 140, 228);
-        }
-        img {
-            margin-top: 5px;
-        }
-    }
+body {
+  background-color: rgb(168, 218, 254);
+  font-size: 100%;
+  margin: 0px;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.vid {
+  margin-top: 30px;
+}
+
+.h1 {
+  display: inline-flex;
+  font-family: "Neucha", cursive;
+  font-size: 4em;
+  font-weight: bold;
+  border-bottom: 3px solid rgb(236, 140, 228);
+  border-right: 3px solid rgb(236, 140, 228);
+  width: 450px;
+  text-align: center;
+}
+
+hr {
+  /* background-color: red; */
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(255, 3, 3, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+img {
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  height: 100px;
+  background-color: rgb(130, 145, 182);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.p {
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .h1 {
+    font-size: 4em;
+    width: 450px;
+  }
+  img {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .h1 {
+    font-size: 4em;
+    width: 450px;
+  }
+  img {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .h1 {
+    font-size: 3em;
+    width: 330px;
+  }
+  img {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .h1 {
+    font-size: 2.5em;
+    width: 270px;
+  }
+  img {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .h1 {
+    font-size: 1.5em;
+    width: 170px;
+    border-bottom: 1px solid rgb(236, 140, 228);
+    border-right: 1px solid rgb(236, 140, 228);
+  }
+  img {
+    margin-top: 5px;
+  }
+}
